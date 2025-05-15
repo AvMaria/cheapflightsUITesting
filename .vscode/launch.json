@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Login Test",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/wdio",
+        "args": [
+          "test",
+          "wdio.conf.js", // 👈 Specific test file
+          "--project=chromium",
+          "--headed"
+        ],
+        "autoAttachChildProcesses": true,        
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  
