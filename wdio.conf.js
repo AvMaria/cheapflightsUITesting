@@ -1,3 +1,4 @@
+require('dotenv').config();
 exports.config = {
     //
     // ====================
@@ -51,6 +52,7 @@ exports.config = {
     //
     capabilities: [{
         browserName: 'chrome'
+        
     }],
 
     //
