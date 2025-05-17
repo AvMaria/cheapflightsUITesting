@@ -1,0 +1,9 @@
+{
+  "positive_searchFly": {
+    "from": "Brisbane",
+    "to": "Sydney"
+  },
+  "negative_searchFly": {
+    "error_message": "An error occurred while trying to perform your search"
+  }
+}
