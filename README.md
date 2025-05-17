@@ -24,14 +24,15 @@ cd chipflightsUITesting
 npm install
 ```
 
-## For the purposes of this exam, I will provide credentials in this file. However, 
-## in a real-world scenario, these should be securely managed and integrated within a CI/CD pipeline.
+## For the purposes of this exam, I will provide credentials in this file. However,  in a real-world scenario, these should be securely managed and integrated within a CI/CD pipeline.
 
-## In the root directory of your project, create a file named .env
 
-## Add the following environment variables:
+Create a `.env` file in the root directory of the project with the following content:
 
+```env
 BASE_URL=https://www.cheapflights.com.au/
+```
+
 
 
 ## Running Tests
